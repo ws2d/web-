@@ -1,0 +1,18 @@
+body{
+    background : url(picture/小说背景图.jpg);
+}
+.abc{
+    color: blue;
+    text-align: center;
+    animation: change 2s linear 0s infinite;
+    font-size: larger;
+
+}
+
+@keyframes change {
+
+0% {color: rgb(27, 23, 223);}
+50% {color: rgb(42, 196, 101);}
+75% {color:rgb(219, 23, 187)}
+100% {color: rgb(97, 112, 121);}
+}
